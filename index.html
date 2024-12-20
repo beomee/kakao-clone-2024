@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kakao Clone</title>
+</head>
+<body>
+    <div class = "status-bar">
+        <div class ="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+              
+        </div>
+        <div class ="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class ="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>  
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class = "welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kakao Clone</h1>
+        <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email or phone number" />
+        <input name="password" type="password" placeholder="Password" />
+        <input type="submit" value = "log In" />
+        <a href="#">Find Kakao Account or password</a>
+    </form>
+
+
+    <!-- FontAwesome 홈페이지 계정에서, 킷 코드 복사 후 붙혀넣기 해야, 거기서 이미지의 코드를 붙혔을때 나옴.-->
+    <script src="https://kit.fontawesome.com/41da5dd9cb.js" crossorigin="anonymous"></script>
+</body>
+</html>
